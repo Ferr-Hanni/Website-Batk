@@ -1,458 +1,307 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Website Batik</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: AgriCulture
-  * Template URL: https://bootstrapmade.com/agriculture-bootstrap-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Batik Nusantara | Warisan Budaya Indonesia</title>
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- CSS MURNI -->
+  <link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body class="index-page">
-
-  <header id="header" class="header d-flex align-items-center position-relative">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-table-row align-items-center">
-        <span class="sitename">Website Batik</span>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Beranda</a></li>
+  <!-- HEADER -->
+  <header data-aos="fade-down">
+    <div class="container header-container">
+      <div class="logo">Website<span>Batik</span></div>
+      <nav>
+        <div class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></div>
+        <ul id="navMenu">
+          <li><a href="#home" class="active">Beranda</a></li>
           <li><a href="#tentang">Tentang</a></li>
-          <li><a href="#motifbatik">Motif Batik</a></li>
-          <li><a href="#filosofibatik">Filosofi Batik</a></li>
-          <li><a href="#modelbatik">Model Batik</a></li>
+          <li><a href="#motif">Motif Batik</a></li>
+          <li><a href="#filosofi">Filosofi</a></li>
+          <li><a href="#model">Model Batik</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
     </div>
   </header>
 
-  <main class="main">
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-content" data-aos="fade-up" data-aos-duration="1500">
+      <h1>Get a acknowlage batik in BatikVerse</h1>
+      <a href="#tentang" class="btn">Jelajahi Sekarang</a>
+    </div>
+  </section>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-        <div class="carousel-item active">
-          <img src="assets/img/hero_1.jpg" alt="">
-          <div class="carousel-container">
-            <h2>Get a acknowlage batik in BatikVerse</h2>
-            <p>Feri Ferdianto - 10</p>
-          </div>
-        </div><!-- End Carousel Item -->
-
+  <!-- TENTANG SECTION -->
+  <section id="tentang" class="container">
+    <div class="section-title" data-aos="fade-up">
+      <h2>Tentang Batik</h2>
+      <p>Seni Tradisional yang Mendunia</p>
+    </div>
+    
+    <div class="tentang-content">
+      <div class="tentang-img" data-aos="fade-right">
+        <img src="assets/img/singleimage.jpg" alt="Proses Membatik">
       </div>
+      <div class="tentang-text" data-aos="fade-left">
+        <h3>Warisan Budaya Dunia</h3>
+        <p>Batik berasal dari kata amba (menulis) dan titik. Awalnya, 
+          batik hanya dibuat dan dipakai oleh kalangan bangsawan di keraton Jawa, 
+          terutama Yogyakarta dan Surakarta. Lama-kelamaan, 
+          batik menyebar ke masyarakat luas dan setiap daerah melahirkan motif khasnya, 
+          seperti batik Pekalongan, Solo, dan Cirebon.</p>
+      </div>
+    </div>
+  </section>
 
-    </section><!-- /Hero Section -->
-
-    <!-- About 3 Section -->
-    <section id="tentang" class="about-3 section">
-
-      <div class="container">
-        <div class="row gy-4 justify-content-between align-items-center">
-          <div class="col-lg-6 order-lg-2 position-relative" data-aos="zoom-out">
-            <img src="assets/img/singleimage.jpg" alt="Image" class="img-fluid">
-            </a>
+  <!-- MOTIF BATIK SECTION -->
+  <section id="motif" style="background: var(--light);">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>Motif Batik Nusantara</h2>
+      </div>
+      
+      <div class="motif-grid">
+        <div class="motif-card" data-aos="flip-left" data-aos-delay="100">
+          <div class="motif-img">
+            <img src="assets/img/pekalongan.jpg" alt="Batik Pekalongan">
           </div>
-          <div class="col-lg-5 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-            <h2 class="content-title mb-4">Tentang Batik</h2>
-            <p class="mb-4">
-              Batik berasal dari kata amba (menlis) dan titik. Awalnya, batik hanya dibuat
-              dan dipakai oleh kalangan bangsawan di keraton Jawa. Terutama Yogyakarta dan Surakarta. Lama-kelamaan, 
-              batik menyebar ke masyarakat luas dan setiap daerah melahirkan motif khasnya,
-              seperti baik Pekalongan, Solo, Yogyakarta, Cirebon, Betawi. 
-            </p>
+          <div class="motif-info">
+            <h3>Pekalongan</h3>
+          </div>
+        </div>
+        
+        <div class="motif-card" data-aos="flip-left" data-aos-delay="200">
+          <div class="motif-img">
+            <img src="assets/img/solo.jpg" alt="Batik Solo">
+          </div>
+          <div class="motif-info">
+            <h3>Solo</h3>
+          </div>
+        </div>
+        
+        <div class="motif-card" data-aos="flip-left" data-aos-delay="300">
+          <div class="motif-img">
+            <img src="assets/img/yogyakarta.jpg" alt="Batik Yogyakarta">
+          </div>
+          <div class="motif-info">
+            <h3>Yogyakarta</h3>
+          </div>
+        </div>
+        
+        <div class="motif-card" data-aos="flip-left" data-aos-delay="400">
+          <div class="motif-img">
+            <img src="assets/img/cirebon.jpg" alt="Batik Cirebon">
+          </div>
+          <div class="motif-info">
+            <h3>Cirebon</h3>
+          </div>
+        </div>
+        
+        <div class="motif-card" data-aos="flip-left" data-aos-delay="500">
+          <div class="motif-img">
+            <img src="assets/img/madura.jpg" alt="Batik Madura">
+          </div>
+          <div class="motif-info">
+            <h3>Madura</h3>
+          </div>
+        </div>
+
+        <div class="motif-card" data-aos="flip-left" data-aos-delay="500">
+          <div class="motif-img">
+            <img src="assets/img/betawi.jpg" alt="Batik Betawi">
+          </div>
+          <div class="motif-info">
+            <h3>Betawi</h3>
           </div>
         </div>
       </div>
-    </section><!-- /About 3 Section -->
+    </div>
+  </section>
 
-    <!-- Services 2 Section -->
-    <section id="motifbatik" class="services-2 section dark-background">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Motif Batik</h2>
-        <p>Pekalongan, Solo, Yogyakarta, Cirebon, Betawi</p>
-      </div><!-- End Section Title -->
-
-      <div class="services-carousel-wrap">
-        <div class="container">
-          <div class="swiper init-swiper">
-            <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "slidesPerView": "auto",
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                },
-                "navigation": {
-                  "nextEl": ".js-custom-next",
-                  "prevEl": ".js-custom-prev"
-                },
-                "breakpoints": {
-                  "320": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 40
-                  },
-                  "1200": {
-                    "slidesPerView": 3,
-                    "spaceBetween": 40
-                  }
-                }
-              }
-            </script>
-            <button class="navigation-prev js-custom-prev">
-              <i class="bi bi-arrow-left-short"></i>
-            </button>
-            <button class="navigation-next js-custom-next">
-              <i class="bi bi-arrow-right-short"></i>
-            </button>
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="service-item">
-                  <div class="service-item-contents">
-                    <a href="#">
-                      <span class="service-item-category">Batik</span>
-                      <h2 class="service-item-title">Pekalongan</h2>
-                    </a>
-                  </div>
-                  <img src="assets/img/pekalongan.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-item">
-                  <div class="service-item-contents">
-                    <a href="#">
-                      <span class="service-item-category">Batik</span>
-                      <h2 class="service-item-title">Solo</h2>
-                    </a>
-                  </div>
-                  <img src="assets/img/solo.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-item">
-                  <div class="service-item-contents">
-                    <a href="#">
-                      <span class="service-item-category">Batik</span>
-                      <h2 class="service-item-title">Yogyakarta</h2>
-                    </a>
-                  </div>
-                  <img src="assets/img/yogyakarta.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="service-item">
-                  <div class="service-item-contents">
-                    <a href="#">
-                      <span class="service-item-category">Batik</span>
-                      <h2 class="service-item-title">Cirebon</h2>
-                    </a>
-                  </div>
-                  <img src="assets/img/cirebon.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-item">
-                  <div class="service-item-contents">
-                    <a href="#">
-                      <span class="service-item-category">Batik</span>
-                      <h2 class="service-item-title">Betawi</h2>
-                    </a>
-                  </div>
-                  <img src="assets/img/betawi.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Services 2 Section -->
-
-    <!-- Recent Posts Section -->
-    <section id="filosofibatik" class="recent-posts section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+  <!-- FILOSOFI SECTION -->
+  <section id="filosofi" style="background: var(--light);">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
         <h2>Filosofi Batik</h2>
-        <p>Ada berbagai filosofi yang terkandung dalam setiap motif batik. Yaitu ada 3...</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/batik parang.jpg" class="img-fluid" alt="">
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Batik Parang<br>
-                  Melambangkan kekuatan, keberanian, dan semangat pantang menyerah. Dahulu dipakai bangsawan dan prajurit keraton.</h3>
-
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center">
-                  </div>
-                  <span class="px-3 text-black-50"></span>
-                  <div class="d-flex align-items-center">
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div><!-- End post item -->
-
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/batik mega mendung.jpg" class="img-fluid" alt="">
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Batik Mega Mendung<br>
-                  Motif awan berlapis, melambangkan kesabaran dan ketenangan. Berasal dari Cirebon dengan pengaruh budaya Tionghoa.</h3>
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center">
-                  </div>
-                  <span class="px-3 text-black-50"></span>
-                  <div class="d-flex align-items-center">
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div><!-- End post item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="post-item position-relative h-100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/batik sidomukti.jpg" class="img-fluid" alt="">
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Batik Sidomukti<br>
-                  Bermakna doa agar hidup makmur, mulia, dan bahagia. Biasanya dipakai dalam acara pernikahan adat Jawa.</h3>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div><!-- End post item -->
-
-        </div>
-
+        <p>Kebermaknaan dan nilai-nilai budaya dalam setiap motif batik</p>
       </div>
-
-    </section><!-- /Recent Posts Section -->
-
-    <!-- Recent Posts Section -->
-    <section id="modelbatik" class="recent-posts section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Model Batik</h2>
-        <p>Seperti ini contoh modelnya</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/ahmad.jpg" class="img-fluid" alt="">
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title"></h3>
-
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center">
-                  </div>
-                  <span class="px-3 text-black-50"></span>
-                  <div class="d-flex align-items-center">
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div><!-- End post item -->
-
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/feri.jpg" class="img-fluid" alt="">
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title"></h3>
-
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center">
-                  </div>
-                  <span class="px-3 text-black-50"></span>
-                  <div class="d-flex align-items-center">
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div><!-- End post item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="post-item position-relative h-100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/" class="img-fluid" alt="">
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title"></h3>
-
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center">
-                  </div>
-                  <span class="px-3 text-black-50"></span>
-                  <div class="d-flex align-items-center">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End post item -->
+      
+      <div class="motif-grid">
+        <div class="motif-card" data-aos="flip-left" data-aos-delay="100">
+          <div class="motif-img">
+            <img src="assets/img/batik parang.jpg" alt="Batik Parang">
+          </div>
+          <div class="motif-info">
+            <h3>Batik Parang</h3>
+            <p>Melambangkan kekuatan, keberanian, dan semangat pantang menyerah.
+               Dahulu dipakai bangsawan dan prajurit keraton.</p>
+          </div>
         </div>
-      </div>
-    </section><!-- /Recent Posts Section -->
-  </main>
-
-  <footer id="footer" class="footer dark-background">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">Website Batik</span>
-            </a>
-            <div class="footer-contact pt-3">
-              <p>Jalan Ikan Piranha Atas, Tunjungsekar, Kec. Lowokwaru</p>
-              <p> Kota Malang, Jawa Timur, Indonesia</p>
-              <p class="mt-3"><strong>Telepon</strong> <span>0341-478195</span></p>
-              <p><strong>Email:</strong> <span>info@smkn5malang.sch.id</span></p>
-            </div>
+        
+        <div class="motif-card" data-aos="flip-left" data-aos-delay="200">
+          <div class="motif-img">
+            <img src="assets/img/batik mega mendung.jpg" alt="Batik Mega Mendung">
           </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Lokasi SMKN 5 Malang</h4>
-            <iframe
-                                class="h-96 w-full flex-none rounded-2xl object-cover shadow-none lg:aspect-square lg:h-auto lg:max-w-sm dark:shadow-xl"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7903.342039515509!2d112.63321307634834!3d-7.92938699209441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629f1b8a28299%3A0xa995c6171f4fe894!2sSMK%20Negeri%205%20Kota%20Malang!5e0!3m2!1sen!2sus!4v1758937060794!5m2!1sen!2sus"
-                                style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="motif-info">
+            <h3>Batik Mega Mendung</h3>
+            <p>Motif awan berlapis, melambangkan kesabaran dan ketenangan.
+               Berasal dari Cirebon dengan pengaruh budaya Tionghoa.</p>
           </div>
-
+        </div>
+        
+        <div class="motif-card" data-aos="flip-left" data-aos-delay="300">
+          <div class="motif-img">
+            <img src="assets/img/batik sidomukti.jpg" alt="Batik Sidomukti">
+          </div>
+          <div class="motif-info">
+            <h3>Batik Sidomukti</h3>
+            <p>Bermakna doa agar hidup makmur, mulia, dan bahagia.
+               Biasanya dipakai dalam acara pernikahan adat Jawa.</p>
+          </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <div class="copyright text-center">
-      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-
-        <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div>
-            © Copyright<strong><span></span></strong>. All Rights Reserved
-          </div>  
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <h2>Feri Ferdianto</h2></a>
-          </div>
-        </div>
-
-        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href="#"><i class="bi bi-circle"></i></a>
-          <a href="#"><i class="bi bi-youtube"></i></a>
-          <a href="#"><i class="bi bi-instagram"></i></a>
-        </div>
-
+<!-- MODEL BATIK SECTION -->
+<section id="model" style="background: var(--light);">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <h2>Model Batik</h2>
+      <p>Klik foto untuk memperbesar</p>
+    </div>
+    
+    <div class="model-gallery" id="modelGallery">
+      <!-- Item 1 -->
+      <div class="model-item" data-aos="zoom-in" data-aos-delay="100" 
+           data-src="assets/img/ahmad.jpg" 
+           data-caption="Batik Modern - Ahmad">
+        <img src="assets/img/ahmad.jpg" alt="Batik Pria 1">
+      </div>
+      
+      <!-- Item 2 -->
+      <div class="model-item" data-aos="zoom-in" data-aos-delay="200" 
+           data-src="assets/img/feri.jpg" 
+           data-caption="Batik Kasual - Feri">
+        <img src="assets/img/feri.jpg" alt="Batik Pria 2">
       </div>
     </div>
+  </div>
+</section>
 
-  </footer>
+<!-- LIGHTBOX MODAL -->
+<div id="lightboxModal" class="lightbox-modal">
+  <span class="lightbox-close">&times;</span>
+  <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+  <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+  <div class="lightbox-content">
+    <img id="lightboxImage" src="" alt="">
+    <div id="lightboxCaption" class="lightbox-caption"></div>
+  </div>
+</div>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<!-- FOOTER - Sesuai Desain Figma -->
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <!-- Bagian Kiri: Portofolio Batik -->
+      <div class="footer-about" data-aos="fade-right">
+        <h3>Portofolio Batik</h3>
+        <p class="tagline">Get a acknowledge batik in BatikVerse</p>
+        
+        <ul class="nav-links">
+          <li><a href="#tentang">- Tentang</a></li>
+          <li><a href="#motif">- Motif</a></li>
+          <li><a href="#filosofi">- Filosofi</a></li>
+          <li><a href="#model">- Model</a></li>
+        </ul>
+        
+        <div class="copyright">
+          © <span>Feri Ferdianto</span> - 2025
+        </div>
+        
+        <div class="social-links-footer">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      
+      <!-- Bagian Tengah: Hubungi Kami -->
+      <div class="footer-contact" data-aos="fade-up">
+        <h3>HUBUNGI KAMI</h3>
+        
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div class="contact-text">
+              <span class="label">Email</span>
+              <p>info@smkn5malang.sch.id</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <div class="contact-text">
+              <span class="label">Telepon</span>
+              <p>0341-478195</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Bagian Kanan: Lokasi -->
+      <div class="footer-location" data-aos="fade-left">
+        <h3>LOKASI</h3>
+        
+        <div class="location-info">
+          <div class="location-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="location-text">
+              <p class="school-name">SMKN 5 Malang</p>
+              <p>Jl. Ikan Piranha Atas,</p>
+              <p>Tunjungsekar, Kec. Lowokwaru,</p>
+              <p>Kota Malang, Jawa Timur 65142</p>
+            </div>
+          </div>
+          
+          <!-- Google Maps Embed -->
+          <div class="map-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.248703382567!2d112.63321307634834!3d-7.92938699209441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629f1b8a28299%3A0xa995c6171f4fe894!2sSMK%20Negeri%205%20Kota%20Malang!5e0!3m2!1sen!2sid!4v1740748800000!5m2!1sen!2sid"
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Copyright Bottom -->
+    <div class="copyright-bottom" data-aos="fade-up">
+      <p>© 2025 Website Batik. | Designed by <span>Feri Ferdianto - 10 & Ahmad Romadhon - 02</span></p>
+    </div>
+  </div>
+</footer>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+  <!-- Scroll to Top Button -->
+  <div id="scrollTop" class="scroll-top" onclick="scrollToTop()" style="display: none; position: fixed; bottom: 30px; right: 30px; background: var(--primary); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; z-index: 99; box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+    <i class="fas fa-arrow-up"></i>
+  </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- JavaScript MURNI -->
+  <script src="main.js"></script>
 </body>
-
 </html>
